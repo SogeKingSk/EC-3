@@ -22,8 +22,16 @@
 # TODOS los web services deben estar en la siguiente ruta: /api/ec3
 # Deben desplegar su aplicación en render
 # Al finalizar el examen entregarlo en el siguiente link: https://forms.office.com/r/4E2zr3Kpww
+###
+@server = https://sogekingsk-refactored-enigma-6j67r6q5qp9hxv6q-8080.preview.app.github.dev
+###
+GET {{server}}/categorias/1
+###
+POST {{server}}/categorias
+Content-Type: application/json
 
-@server = INSERTAR URL DE RENDER ACÁ
+{"nombre": "Instrumentos de Cuerda"}
+###
 @api = {{server}}/api/ec3
 
 ################ Categorias: ################
