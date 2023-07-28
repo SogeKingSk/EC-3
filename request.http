@@ -23,7 +23,9 @@
 # Deben desplegar su aplicación en render
 # Al finalizar el examen entregarlo en el siguiente link: https://forms.office.com/r/4E2zr3Kpww
 ###
-@server = https://sogekingsk-refactored-enigma-6j67r6q5qp9hxv6q-8080.preview.app.github.dev
+#@server = https://sogekingsk-refactored-enigma-6j67r6q5qp9hxv6q-8080.preview.app.github.dev
+
+@server = https://ec3-6963.onrender.com
 ###
 GET {{server}}/categorias
 ###
