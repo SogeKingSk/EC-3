@@ -25,7 +25,7 @@
 ###
 @server = https://sogekingsk-refactored-enigma-6j67r6q5qp9hxv6q-8080.preview.app.github.dev
 ###
-GET {{server}}/categorias/1
+GET {{server}}/categorias
 ###
 POST {{server}}/categorias
 Content-Type: application/json
